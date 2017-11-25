@@ -3,11 +3,27 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hellohadoop</groupId>
   <artifactId>HelloHadoop</artifactId>
+
   <packaging>jar</packaging>
+
   <version>1.0-SNAPSHOT</version>
+
   <name>HelloHadoop</name>
+
   <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <hadoop.version>2.8.1</hadoop.version>
+  </properties>
+
   <dependencies>
+    <dependency>
+	<groupId>org.apache.hadoop</groupId>
+	<artifactId>hadoop-client</artifactId>
+	<version>${hadoop.version}</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
