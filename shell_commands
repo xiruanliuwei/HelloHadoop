@@ -3,3 +3,9 @@ $ mvn archetype:generate -DgroupId=com.hellohadoop -DartifactId=HelloHadoop -Dar
 
 $ mvn eclipse:eclipse -DdownloadSources=true -DdownloadJavadocs=true
 
+$ mvn help:help
+$ mvn help:dependency
+$ mvn exec:help
+$ mvn eclipse:help
+$ mvn plugin:help
+
